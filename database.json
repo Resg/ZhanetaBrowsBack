@@ -1,0 +1,16 @@
+{
+  "dev": {
+    "driver": "pg",
+    "user": {
+      "ENV": "PG_USER"
+    },
+    "password": {
+      "ENV": "PG_PASS"
+    },
+    "host": {"ENV": "PG_HOST"},
+    "database": "salonDB",
+    "port": "5432",
+    "ssl": false,
+    "schema": "public"
+  }
+}
