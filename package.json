@@ -8,7 +8,8 @@
   "scripts": {
     "migrate:create": "db-migrate create",
     "migrate:up": "db-migrate up",
-    "migrate:down": "db-migrate down"
+    "migrate:down": "db-migrate down",
+    "create:db": "db-migrate db:create"
   },
   "dependencies": {
     "db-migrate": "^0.11.14",
